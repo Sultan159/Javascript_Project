@@ -53,3 +53,24 @@ select{
     outline: none;
 }
 
+.button{
+    margin-top: 40px;
+    text-align: center;
+}
+
+#btn{
+    width: 340px;
+    padding: 10px 0;
+    background-color: #de7c64;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    color: #fff;
+}
+
+#btn:hover{
+    background-color: #d75838;
+}
