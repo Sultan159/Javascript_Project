@@ -18,5 +18,74 @@ body{
 .container{
     background-color: #000;
     color: #fff;
-    width: 400px;
+    width: 450px;
+    border-radius: 10px;
+    
+}
+
+h1{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.input-container{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 40px 30px 40px;
+
+}
+
+#todo-input{
+    padding: 12px 8px;
+    width: 270px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+#addBtn{
+    margin-left: 8px;
+    padding: 0 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: #fb8500;
+    color: #fff;
+    font-weight: 600;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.taskContainer{
+    margin: 20px 40px 30px 40px;
+}
+
+.task{
+    position: relative;
+    padding: 9px 6px;
+    list-style: none;
+    /* display: inline-block; */
+    margin: 8px 0;
+    background-color: #fb8500;
+    border-radius: 5px;
+    color: #000;
+}
+
+#deletBtn{
+    position: absolute;
+    top: 15.5%;
+    right: 8px;
+    /* padding: 6px 6px; */
+    width: 70px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: red;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
 }
