@@ -70,10 +70,10 @@ h1{
     margin: 8px 0;
     background-color: #fb8500;
     border-radius: 5px;
-    color: #000;
+    color: #fff;
 }
 
-#deletBtn{
+.deleteBtn{
     position: absolute;
     top: 15.5%;
     right: 8px;
@@ -88,4 +88,9 @@ h1{
     color: #fff;
     font-size: 1rem;
     font-weight: 600;
+}
+
+.completed{
+    text-decoration: line-through;
+    opacity: 0.5;
 }
