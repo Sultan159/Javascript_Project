@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Advanced Color Picker</h2>
+        <div class="color-generate">
+            <input type="color" id="colorInput", class="color-box">
+            <p class="color-code" id="hexCode">#000000</p>
+            <button id="copyBtn" class="copy-color">Copy Color Code</button>
+        </div>
+
+        <div class="complementry-color">
+            <h3>Complementry Color</h3>
+            <div id="complementryContainer"></div>
+        </div>
+
+        <button id="saveColorBtn">Save Color</button>
+        <div class="favorite">
+            <h3>Favorite Colors</h3>
+            <div id="favoriteContainer"></div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
