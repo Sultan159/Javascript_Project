@@ -57,6 +57,9 @@ body{
 .color-code{
     padding: 10px 0;
     text-align: center;
+    color: #000;
+    font-size: 20px;
+    font-weight: 600;
 }
 
 .copy-color{
@@ -81,10 +84,17 @@ body{
     padding-bottom: 10px;
 }
 
+#complementryContainer{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
 .box-color{
     width: 40px;
     height: 40px;
     border-radius: 50%;
+
 }
 
 .favBox{
@@ -98,15 +108,26 @@ body{
 .favBox > h3{
     font-size: 28px;
     color: #fb8500;
-    padding: 10px 0;
+    padding: 5px 0;
+}
+
+#favoriteContainer{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
 }
 
 .saveBtn{
     background-color: #fb8500;
     color: #ffffff;
-    padding: 5px 4px;
+    padding: 5px 7px;
     border: none;
     cursor: pointer;
     border-radius: 5px;
-    margin-bottom: 5px;
+    margin-top: 20px;
+}
+
+.disable{
+    pointer-events: none;
+    cursor: none;
 }
