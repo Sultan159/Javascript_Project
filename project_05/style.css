@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000000;
+    color: #fff;
+}
+
+.container{
+    background-color: #313131;
+    padding: 15px 25px 25px 25px;
+    border-radius: 10px;
+    width: 480px;
+}
+
+.container > h2{
+    text-align: center;
+    font-size: 35px;
+    color: #fb8500;
+}
+
+.color-generate{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px 0;
+}
+
+.color-box{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: none;
+}
+
+.color-box::-webkit-color-swatch-wrapper {
+	padding: 0;
+    margin:0;
+    background:none;
+}
+
+.color-box::-webkit-color-swatch {
+	border: none;
+}
+
+.color-code{
+    padding: 10px 0;
+    text-align: center;
+}
+
+.copy-color{
+    background-color: #fb8500;
+    color: #ffffff;
+    padding: 5px 4px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.complementry-color{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.complementry-color > h3{
+    font-size: 28px;
+    color: #fb8500;
+    padding-bottom: 10px;
+}
+
+.box-color{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.favBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+}
+
+.favBox > h3{
+    font-size: 28px;
+    color: #fb8500;
+    padding: 10px 0;
+}
+
+.saveBtn{
+    background-color: #fb8500;
+    color: #ffffff;
+    padding: 5px 4px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
