@@ -27,6 +27,8 @@ body{
     /* position: relative; */
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 p{
@@ -37,12 +39,24 @@ p{
 
 small{
     position: relative;
-    /* top: 80%; */
-    right: -318px;
+    right: -120px;
     font-size: 25px;
 }
 
 button{
-    /* display: inline; */
-    width: 40px;
+    width: 130px;
+    margin-top: 40px;
+    padding: 8px 5px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: #fb8500;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+button:active{
+    transform: translateY(1px);
 }
