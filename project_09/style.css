@@ -25,9 +25,11 @@ body {
 }
 
 .random_cats {
-  width: 70%;
+  width: 40%;
 }
 
 img {
-  width: 900px;
+  height: 390px;
+  width: 390px;
+  border-radius: 10px;
 }
