@@ -8,13 +8,17 @@ const url = "https://api.thecatapi.com/v1/images/search";
 
 
 async function generateRandomImage(){
-    const response = await fetch(url)
-    const data = await response.json();
-    div.classList.add("cats")
-    img.src = data[0].url;
-    img.classList.add("random_cats");
-    div.appendChild(img)
-    containerImage.appendChild(div)
+    try {
+        const response = await fetch(url);
+        const data = await response.json();
+        div.classList.add("cats");
+        img.src = data[0].url;
+        img.classList.add("random_cats");
+        div.appendChild(img);
+        containerImage.appendChild(div);
+    } catch (error) {
+        console.log(error)
+    }
 }
 
 generateBtn.addEventListener("click", generateRandomImage);
